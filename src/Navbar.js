@@ -20,19 +20,19 @@ const Navbar = () => {
       </div>
 
       <ul className={`md:flex md:items-center z-[999] pb-4 md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0  md:pl-0 pl-7 md:opacity-100 ${menuOpen ? 'opacity-100' : 'opacity-0 top-[-400px]'} transition-all ease-in duration-500`}>
-        <li className="mx-4 my-6 md:my-0 text-gray-400 ">
+        <li className="mx-2 xl:mx-4 my-6 md:my-0 text-gray-400 ">
           <button className="text-xl md:text-base lg:text-xl focus:text-black hover:text-black duration-500">Products</button>
         </li>
-        <li className="mx-4 my-6 md:my-0 text-gray-400">
+        <li className="mx-2 xl:mx-4 my-6 md:my-0 text-gray-400">
           <button className="text-xl md:text-base lg:text-xl focus:text-black hover:text-black duration-500">Solution</button>
         </li>
-        <li className="mx-4 my-6 md:my-0 text-gray-400">
+        <li className="mx-2 xl:mx-4 my-6 md:my-0 text-gray-400">
           <button className="text-xl md:text-base lg:text-xl focus:text-black hover:text-black duration-500">Industries</button>
         </li>
-        <li className="mx-4 my-6 md:my-0 text-gray-400">
+        <li className="mx-2 xl:mx-4 my-6 md:my-0 text-gray-400">
           <button className="text-xl md:text-base lg:text-xl focus:text-black hover:text-black duration-500">Pricing</button>
         </li>
-        <li className="mx-4 my-6 md:my-0 text-gray-400 ">
+        <li className="mx-2 xl:mx-4 my-6 md:my-0 text-gray-400 ">
           <button className="text-xl md:text-base lg:text-xl focus:text-black hover:text-black duration-500">Resource</button>
         </li>
 
@@ -41,7 +41,7 @@ const Navbar = () => {
         </button>
         <h2 className=""></h2>
       </ul>
-      <button className="hidden md:block text-xm lg:text-xl bg-[#534AEC] text-white  duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">
+      <button className="hidden md:block text-xs lg:text-xl bg-[#534AEC] text-white  duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">
           Book a Demo
         </button>
     </nav>
